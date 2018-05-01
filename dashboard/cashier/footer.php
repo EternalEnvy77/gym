@@ -1,0 +1,1 @@
+<footer class="main"> &copy; 2018 <strong>BODY FUEL GYM  @all_rights_reserved_ankittaral</strong></footer>
