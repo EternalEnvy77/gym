@@ -1,16 +1,20 @@
 <?php
 $host     = "localhost"; // Host name 
 $username = "root"; // Mysql username 
-$password = ""; // Mysql password 
+$password = "secret"; // Mysql password 
 $db_name  = "dbgym"; // Database name 
 
 // Connect to server and select databse.
 $con = mysqli_connect($host, $username, $password, $db_name);
 
-// Check connection
-if (mysqli_connect_errno($con)) {
-    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+if(!$con){
+    die("connection error". mysqli_connect_error());
 }
+// Check connection
+/*if (mysqli_connect_errno($con)) {
+    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+    die("mar gaya madarchod");
+}*/
 ?>
 <?php
 function page_protect()
