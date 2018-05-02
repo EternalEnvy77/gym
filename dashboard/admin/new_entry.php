@@ -358,7 +358,7 @@ page_protect();
 			<div class="form-group">
 				<label for="field-1" class="col-sm-3 control-label">Join Date :</label>					
 					<div class="col-sm-5">
-						<input type="text" name="date" id="textfield22" value="<?php echo date('Y-m-d'); ?>">
+						<input type="text" name="date" id="textfield22" value=<?php echo date('Y-m-d'); ?>>
 					</div>
 			</div>			
 
